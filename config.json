@@ -1,0 +1,16 @@
+{
+    "news_ycombinator": {
+        "base_url": "https://news.ycombinator.com",
+        "pagination_url": "https://news.ycombinator.com/?p={page}",
+        "article_selector": "td.title",
+        "title_selector": "span.titleline a",
+        "pagination_selector": "a.morelink"
+    },
+    "example_site": {
+        "base_url": "https://example.com",
+        "pagination_url": "https://example.com/page/{page}",
+        "article_selector": "div.article",
+        "title_selector": "h2.title a",
+        "pagination_selector": "a.next"
+    }
+}
